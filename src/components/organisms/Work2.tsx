@@ -31,7 +31,7 @@ const Work2 = () => {
               <span className="font-bold">開発言語: </span>HTML, CSS, JS
             </p>
           </div>
-          <a href="https://chromewebstore.google.com/detail/omiakadibidaahojhjdmlmllmolieggc?hl=ja&utm_source=ext_sidebar" className="flex justify-center items-center text-white bg-blue-500 hover:bg-blue-400 transition-all p-3 w-36 mt-6 rounded-full">
+          <a href="https://chromewebstore.google.com/detail/omiakadibidaahojhjdmlmllmolieggc?hl=ja&utm_source=ext_sidebar" target="_blank" className="flex justify-center items-center text-white bg-blue-500 hover:bg-blue-400 transition-all p-3 w-36 mt-6 rounded-full">
             ストアへ
             <svg
               xmlns="http://www.w3.org/2000/svg"

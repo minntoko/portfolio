@@ -42,6 +42,30 @@ const Skills = () => {
               </p>
             </div>
           </div>
+          <div className="flex justify-end mt-10">
+            <p className="text-sm ml-auto inline-block">*グラフはスキルのレベルを表しています</p>
+          </div>
+          <div className="mt-6 w-full flex flex-col items-center md:flex-row">
+            <h2 className="text-2xl sm:text-3xl font-medium text-gray-900 text-center md:text-left">
+              Other Skills
+            </h2>
+          </div>
+          <div className="flex flex-col items-center lg:flex-row lg:justify-between mt-10">
+            <div className="flex justify-around w-full lg:w-[50%]">
+              <img src="./img/nextjs-icon.svg" alt="nextjsロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/flutter-icon.svg" alt="flutterロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/sass-icon.svg" alt="sassロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/tailwindcss-icon.svg" alt="tailwindcssロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/git-icon.svg" alt="gitロゴ" className="w-[64px] h-[64px] mx-2" />
+            </div>
+            <div className="flex justify-around w-full mt-10 lg:w-[50%] lg:mt-0">
+              <img src="./img/firebase-icon.svg" alt="firebaseロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/supabase-icon.svg" alt="supabaseロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/nodejs-icon.svg" alt="nodejsロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/express-icon.svg" alt="expressロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/mysql-icon.svg" alt="mysqlロゴ" className="w-[64px] h-[64px] mx-2" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
