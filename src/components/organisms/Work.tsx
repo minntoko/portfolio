@@ -2,12 +2,12 @@ import Img from "../atoms/Img";
 import Headline from "../atoms/Headline";
 const Work = () => {
   return (
-    <div className="md:w-1/2 p-4 min-w-[523px]">
+    <div className="w-full mb-4 md:w-1/2 md:p-4 md:mb-4">
       <div className=" border-[6px] border-[#222]">
         <div className="flex items-center justify-between pr-8">
           <Headline title="FlashOrder" />
-          <p className="text-lg font-bold text-gray-900">
-            <span className="text-2xl">Aug.</span> 2023
+          <p className="text-sm font-bold text-gray-900 md:text-lg">
+            <span className="text-sm md:text-2xl">Aug.</span> 2023
           </p>
         </div>
         <div className="px-8 pb-8">

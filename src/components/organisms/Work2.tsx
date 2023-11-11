@@ -1,13 +1,13 @@
-import Headline from "../atoms/Headline";
+import Headline2 from "../atoms/Headline2";
 import Img2 from "../atoms/Img2";
 const Work2 = () => {
   return (
-    <div className="md:w-1/2 p-4 min-w-[523px]">
+    <div className="w-full md:w-1/2 md:p-4">
       <div className=" border-[6px] border-[#222]">
         <div className="flex items-center justify-between pr-8">
-          <Headline title="タブマネージャー for Zenn" />
-          <p className="text-lg font-bold text-gray-900">
-            <span className="text-2xl">Oct.</span> 2023
+          <Headline2 title="タブマネージャー for Zenn" />
+          <p className="text-sm font-bold text-gray-900 md:text-lg">
+            <span className="text-sm md:text-2xl">Oct.</span> 2023
           </p>
         </div>
         <div className="px-8 pb-8">
