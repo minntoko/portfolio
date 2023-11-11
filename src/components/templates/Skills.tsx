@@ -52,18 +52,18 @@ const Skills = () => {
           </div>
           <div className="flex flex-col items-center lg:flex-row lg:justify-between mt-10">
             <div className="flex justify-around w-full lg:w-[50%]">
-              <img src="./img/nextjs-icon.svg" alt="nextjsロゴ" className="w-[64px] h-[64px] mx-2" />
-              <img src="./img/flutter-icon.svg" alt="flutterロゴ" className="w-[64px] h-[64px] mx-2" />
-              <img src="./img/sass-icon.svg" alt="sassロゴ" className="w-[64px] h-[64px] mx-2" />
-              <img src="./img/tailwindcss-icon.svg" alt="tailwindcssロゴ" className="w-[64px] h-[64px] mx-2" />
-              <img src="./img/git-icon.svg" alt="gitロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/nextjs-icon.svg" alt="nextjsロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
+              <img src="./img/flutter-icon.svg" alt="flutterロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
+              <img src="./img/sass-icon.svg" alt="sassロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
+              <img src="./img/tailwindcss-icon.svg" alt="tailwindcssロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
+              <img src="./img/git-icon.svg" alt="gitロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
             </div>
             <div className="flex justify-around w-full mt-10 lg:w-[50%] lg:mt-0">
-              <img src="./img/firebase-icon.svg" alt="firebaseロゴ" className="w-[64px] h-[64px] mx-2" />
-              <img src="./img/supabase-icon.svg" alt="supabaseロゴ" className="w-[64px] h-[64px] mx-2" />
-              <img src="./img/nodejs-icon.svg" alt="nodejsロゴ" className="w-[64px] h-[64px] mx-2" />
-              <img src="./img/express-icon.svg" alt="expressロゴ" className="w-[64px] h-[64px] mx-2" />
-              <img src="./img/mysql-icon.svg" alt="mysqlロゴ" className="w-[64px] h-[64px] mx-2" />
+              <img src="./img/firebase-icon.svg" alt="firebaseロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
+              <img src="./img/supabase-icon.svg" alt="supabaseロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
+              <img src="./img/nodejs-icon.svg" alt="nodejsロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
+              <img src="./img/express-icon.svg" alt="expressロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
+              <img src="./img/mysql-icon.svg" alt="mysqlロゴ" className="w-[48px] h-[48px] mx-2 md:w-[64px] md:h-[64px]" />
             </div>
           </div>
         </div>
