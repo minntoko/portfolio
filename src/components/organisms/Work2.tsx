@@ -10,15 +10,17 @@ const Work2 = () => {
             <span className="text-sm md:text-2xl">Oct.</span> 2023
           </p>
         </div>
+        <Img2 />
         <div className="px-8 pb-8">
-          <Img2 />
           <p className="mt-3">
             <span className="font-bold">概要: </span>
             開きすぎたZennのタブを一つにするためのサービス
           </p>
           <p className="mt-3">
             <span className="font-bold">開発背景: </span>
-            開発をしながら調べごとをしているとタブが気付いたら20や30、それ以上に膨らむことがあり、<br />整理するためのサービスを作りたいと思って開発しました。
+            開発をしながら調べごとをしているとタブが気付いたら20や30、それ以上に膨らむことがあり、
+            <br />
+            整理するためのサービスを作りたいと思って開発しました。
           </p>
           <div className="flex justify-between flex-wrap">
             <p className="mt-3">
@@ -31,7 +33,11 @@ const Work2 = () => {
               <span className="font-bold">開発言語: </span>HTML, CSS, JS
             </p>
           </div>
-          <a href="https://chromewebstore.google.com/detail/omiakadibidaahojhjdmlmllmolieggc?hl=ja&utm_source=ext_sidebar" target="_blank" className="flex justify-center items-center text-white bg-blue-500 hover:bg-blue-400 transition-all p-3 w-36 mt-6 rounded-full">
+          <a
+            href="https://chromewebstore.google.com/detail/omiakadibidaahojhjdmlmllmolieggc?hl=ja&utm_source=ext_sidebar"
+            target="_blank"
+            className="flex justify-center items-center text-white bg-blue-500 hover:bg-blue-400 transition-all p-3 w-36 mt-6 rounded-full"
+          >
             ストアへ
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +54,7 @@ const Work2 = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Work2
+export default Work2;

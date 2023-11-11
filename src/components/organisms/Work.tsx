@@ -10,15 +10,17 @@ const Work = () => {
             <span className="text-sm md:text-2xl">Aug.</span> 2023
           </p>
         </div>
+        <Img />
         <div className="px-8 pb-8">
-          <Img />
           <p className="mt-3">
             <span className="font-bold">概要: </span>
             瞬時に切り替わるオーダーをメモして当てるゲーム
           </p>
           <p className="mt-3">
             <span className="font-bold">開発背景: </span>
-            飲食店のホールバイトでオーダーを取るのが大変そうだと思ってバイトの中では敷居が高いと感じていました。<br />そこで、オーダーを取るための練習ができるサービスを開発しました。
+            飲食店のホールバイトでオーダーを取るのが大変そうだと思ってバイトの中では敷居が高いと感じていました。
+            <br />
+            そこで、オーダーを取るための練習ができるサービスを開発しました。
           </p>
           <div className="flex justify-between flex-wrap">
             <p className="mt-3">
@@ -31,7 +33,11 @@ const Work = () => {
               <span className="font-bold">開発言語: </span>React, TypeScript
             </p>
           </div>
-          <a href="https://flash-order.minntoko.com/" target="_blank" className="flex justify-center items-center text-white bg-blue-500 hover:bg-blue-400 transition-all p-3 w-36 mt-6 rounded-full">
+          <a
+            href="https://flash-order.minntoko.com/"
+            target="_blank"
+            className="flex justify-center items-center text-white bg-blue-500 hover:bg-blue-400 transition-all p-3 w-36 mt-6 rounded-full"
+          >
             プレイする
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +54,7 @@ const Work = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;
