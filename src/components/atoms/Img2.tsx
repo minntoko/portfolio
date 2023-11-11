@@ -7,7 +7,7 @@ const SImg = styled.img`
 `;
 
 const Img2 = () => {
-  return <SImg src="./img/tab-manager-for-zenn.png" alt="タブマネージャー for Zenn" />;
+  return <SImg src="./img/tab-manager-for-zenn.jpg" alt="タブマネージャー for Zenn" />;
 };
 
 export default Img2;

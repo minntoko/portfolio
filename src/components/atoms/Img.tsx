@@ -7,7 +7,7 @@ const SImg = styled.img`
 `;
 
 const Img = () => {
-  return <SImg src="./img/FlashOrder.png" alt="FlashOrder" />;
+  return <SImg src="./img/FlashOrder.jpg" alt="FlashOrder" />;
 };
 
 export default Img;
