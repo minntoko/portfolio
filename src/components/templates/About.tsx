@@ -31,7 +31,7 @@ const About = () => {
               <GitHubIcon className="!text-3xl md:!text-4xl mr-2" /> Github
             </a>
             <a
-              href="https://twitter.com/minntoko0822"
+              href="https://twitter.com/minntoko_"
               target="_blank"
               className="text-md md:text-xl lg:text-2xl flex items-center"
             >
