@@ -9,18 +9,21 @@ const ReactHelmet = () => {
       <meta property="og:title" content="ポートフォリオ" />
       <meta
         property="og:description"
-        content="今まで作ってきた作品やスキルを紹介するポートフォリオサイトです。"
+        content="技術スタックや今まで作ってきた作品を紹介するポートフォリオサイトです。"
       />
       <meta property="og:site_name" content="知也のポートフォリオサイト" />
       <meta property="og:image" content={`${url}img/portfolioOGP.png`} />
       <meta property="og:locale" content="ja_JP" />
 
-      <meta name="keywords" content="ポートフォリオ,フロントエンド,学生,React" />
+      <meta
+        name="keywords"
+        content="ポートフォリオ,フロントエンド,学生,React"
+      />
       <meta
         content="HAL名古屋のフロントエンドエンジニアを目指している学生です。
-        今まで作ってきた作品やプログラミングスキルを紹介するポートフォリオサイトです。"
+        技術スタックやや今まで作ってきた作品を紹介するポートフォリオサイトです。"
         name="description"
-      ></meta>
+      />
     </Helmet>
   );
 };
