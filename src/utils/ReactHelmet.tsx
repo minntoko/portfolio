@@ -12,7 +12,7 @@ const ReactHelmet = () => {
         content="技術スタックや今まで作ってきた作品を紹介するポートフォリオサイトです。"
       />
       <meta property="og:site_name" content="知也のポートフォリオサイト" />
-      <meta property="og:image" content={`${url}img/portfolioOGP.png`} />
+      <meta property="og:image" content={`${url}img/defaultOGP.png`} />
       <meta property="og:locale" content="ja_JP" />
 
       <meta
@@ -24,6 +24,8 @@ const ReactHelmet = () => {
         技術スタックやや今まで作ってきた作品を紹介するポートフォリオサイトです。"
         name="description"
       />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@minntoko_" />
     </Helmet>
   );
 };
