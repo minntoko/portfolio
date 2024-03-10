@@ -15,8 +15,10 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.16",
     "@mui/material": "^5.14.17",
+    "@types/react-helmet": "^6.1.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
