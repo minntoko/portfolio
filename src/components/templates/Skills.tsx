@@ -9,11 +9,11 @@ const Skills = () => {
             <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 text-center md:text-left">
               My Skills
             </h1>
-            <span className="ml-auto text-base">2023年11月現在</span>
+            <span className="ml-auto text-base">2024年3月現在</span>
           </div>
           <div className="w-full flex justify-around flex-wrap">
             <div className="flex flex-col items-center w-[200px] my-4">
-              <Circle label="HTML" deg={285} color="#f2652a" />
+              <Circle label="HTML" deg={310} color="#f2652a" />
               <p className="mt-6">開発経験: 2年半</p>
               <p className="mt-2">一番最初に触った言語で基礎になるから大事</p>
             </div>
@@ -23,20 +23,20 @@ const Skills = () => {
               <p className="mt-2">UIを作るのが楽しくてハマった</p>
             </div>
             <div className="flex flex-col items-center w-[200px] my-4">
-              <Circle label="JavaScript" deg={300} color="#f0dc4f" />
-              <p className="mt-6">開発経験: 1年9ヶ月</p>
+              <Circle label="JavaScript" deg={290} color="#f0dc4f" />
+              <p className="mt-6">開発経験: 2年</p>
               <p className="mt-2">
                 フロントもバックもなんでもできて好きな言語
               </p>
             </div>
             <div className="flex flex-col items-center w-[200px] my-4">
-              <Circle label="React" deg={250} color="#62dafb" />
-              <p className="mt-6">開発経験: 10ヶ月</p>
+              <Circle label="React" deg={260} color="#62dafb" />
+              <p className="mt-6">開発経験: 1年1ヶ月</p>
               <p className="mt-2">webアプリが作りたくて始めた</p>
             </div>
             <div className="flex flex-col items-center w-[200px] my-4">
-              <Circle label="TypeScript" deg={220} color="#007acc" />
-              <p className="mt-6">開発経験: 7ヶ月</p>
+              <Circle label="TypeScript" deg={230} color="#007acc" />
+              <p className="mt-6">開発経験: 10ヶ月</p>
               <p className="mt-2">
                 型をつけて安全に、便利に開発がしたくて始めた
               </p>
