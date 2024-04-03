@@ -17,10 +17,10 @@ const ReactHelmet = () => {
 
       <meta
         name="keywords"
-        content="ポートフォリオ,フロントエンド,学生,React"
+        content="松田知也,HAL名古屋,ポートフォリオ,フロントエンド,学生,React"
       />
       <meta
-        content="HAL名古屋のフロントエンドエンジニアを目指している学生です。
+        content="HAL名古屋のフロントエンドエンジニアを目指している松田知也です。
         技術スタックやや今まで作ってきた作品を紹介するポートフォリオサイトです。"
         name="description"
       />
