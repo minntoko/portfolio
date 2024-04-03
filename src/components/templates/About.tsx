@@ -1,6 +1,10 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
+import getSchoolYear from "../../utils/getSchoolYear";
 
 const About = () => {
+  const entranceYear = 2021;
+  const schoolYear = getSchoolYear(entranceYear);
+
   return (
     <section id="about">
       <div className="flex container mx-auto flex-col-reverse md:flex-row py-8 md:py-16 px-5 items-center">
@@ -16,7 +20,7 @@ const About = () => {
             松田 知也(21)
             <br />
             <span className="text-lg md:text-xl lg:text-4xl my-2 md:my-3 lg:my-8 xl:my-10 block">
-              HAL名古屋 高度情報学科 3年
+              HAL名古屋 高度情報学科 {schoolYear}年
             </span>
           </h1>
           <p className="mb-8 leading-relaxed">
